@@ -23,6 +23,9 @@ public class Setting {
      */
     public static final int FRAME_ROWS = 4;
 
+    public static final int CAMERA_WIDTH = 420;
+    public static final int CAMERA_HEIGHT = 320;
+
     /**
      * Цвет, в который будет закрашен весь фон сцены по умолчанию
      */

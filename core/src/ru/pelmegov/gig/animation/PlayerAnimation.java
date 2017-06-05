@@ -44,7 +44,7 @@ public class PlayerAnimation {
         TextureRegion currentTexture;
         stateTime += Gdx.graphics.getDeltaTime();
         Animation<TextureRegion> playerAnimation =
-                new Animation<TextureRegion>(0.025f, animateMove(direction));
+                new Animation<TextureRegion>(0.05f, animateMove(direction));
         currentTexture = playerAnimation.getKeyFrame(stateTime, true);
         return currentTexture;
     }
