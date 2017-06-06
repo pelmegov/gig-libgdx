@@ -4,10 +4,10 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import ru.pelmegov.gig.setting.Setting;
+import ru.pelmegov.gig.util.Setting;
 
-import static ru.pelmegov.gig.setting.Setting.FRAME_COLS;
-import static ru.pelmegov.gig.setting.Setting.FRAME_ROWS;
+import static ru.pelmegov.gig.util.Setting.FRAME_COLS;
+import static ru.pelmegov.gig.util.Setting.FRAME_ROWS;
 
 /**
  * Класс, отвечающий за картинку игрока.
